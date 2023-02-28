@@ -4,6 +4,14 @@ This is a Pong game with an AI player trained using the NEAT (NeuroEvolution of 
 
 The objective of the game is to score as many points as possible by hitting the ball past the opponent's paddle. The AI player uses the NEAT algorithm to learn the optimal strategy for playing the game.
 
+## DEMO
+
+![Game Demo](pongml.gif)
+
+On Left Human <br>
+On Right ML Model
+
+
 ## NEAT (NeuroEvolution of Augmenting Topologies)
 The NEAT (NeuroEvolution of Augmenting Topologies) algorithm is a method for evolving artificial neural networks. It is a type of genetic algorithm that can be used to optimize the weights and architecture of a neural network.
 
@@ -44,13 +52,6 @@ if __name__ == "__main__":
 This will load the best-performing model from the model.pickle file and let you play against it.
 
 During the training and testing process, the game window will open and display the current state of the game, including the score and the position of the paddles and ball.
-
-## DEMO
-
-![Game Demo](pongml.gif)
-
-On Left Human <br>
-On Right ML Model
 
 ### Resources
 - [Original NEAT paper](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)
