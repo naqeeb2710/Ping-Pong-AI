@@ -54,7 +54,7 @@ This will load the best-performing model from the model.pickle file and let you 
 During the training and testing process, the game window will open and display the current state of the game, including the score and the position of the paddles and ball.
 
 ### Resources
-- [Original NEAT paper](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)
+- [Original NEAT paper](https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf)
 - [NEAT-Python library](https://neat-python.readthedocs.io/en/latest/)
 - [Configuration file description
 ](https://neat-python.readthedocs.io/en/latest/config_file.html)
